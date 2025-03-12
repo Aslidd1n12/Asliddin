@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+</head>
+<body>
+    <script>
+        alert("Привет!"); // Покажет всплывающее окно
+console.log("Сообщение в консоли"); // Выведет текст в консоли браузера
+document.write("Текст на странице"); // Добавит текст в HTML 
+
+let имя = prompt("Как тебя зовут?"); // Запросит имя
+alert("Привет, " + имя + "!"); // Покажет приветствие
+
+
+
+let согласие = confirm("Ты готов учить JavaScript?");
+console.log(согласие); // true (если "ОК") или false (если "Отмена")
+
+
+
+
+
+let a = 10;
+let b = 5;
+console.log(a + b); // 15
+console.log(a - b); // 5
+console.log(a * b); // 50
+console.log(a / b); // 2
+console.log(a % b); // Остаток от деления (0)
+
+
+
+
+let возраст = prompt("Сколько тебе лет?");
+if (возраст >= 18) {
+    alert("Доступ разрешен!");
+} else {
+    alert("Доступ запрещен!");
+}
+
+
+
+let сообщение = (возраст >= 18) ? "Доступ открыт" : "Доступ закрыт";
+alert(сообщение);
+
+    </script>
+</body>
+</html>
